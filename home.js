@@ -15,6 +15,7 @@ for(let i=1;i<=6;i++){
 }
 var k=0;
 var chart,data,series1,xaxis,yaxis, ticks;
+d=[[0,0,0]]
 data=anychart.data.set(d);
 
 chart = anychart.column();
